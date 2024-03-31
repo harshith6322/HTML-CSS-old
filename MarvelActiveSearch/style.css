@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+*:not(i) {
+  font-family: "Poppins", sans-serif;
+}
+/* above code This CSS rule can be useful if you want to apply a specific font family to all elements except for italicized text represented by <i> elements. */
+body {
+  background-color: #fe2e27e4;
+}
+.container-1 {
+  background-color: white;
+  width: 90vmin;
+  height: 80vh;
+  padding: 22px 60px;
+  border-radius: 6px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+
+.searchbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #323136;
+  border-radius: 6px;
+}
+
+.searchbox input {
+  border: none;
+  outline: none;
+  padding: 9px 9px;
+  background-color: #323136;
+  border-radius: 6px;
+  color: #c3c3c3;
+}
+.searchbox button {
+  color: rgb(239, 232, 232);
+  background-color: #fe2e27e4;
+  border: none;
+  padding: 5px;
+  width: 30%;
+  border-radius: 2.5px;
+}
+
+.con-char-img {
+  background-color: white;
+  padding: 0.5em;
+  height: 9.37em;
+  width: 9.37em;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+.con-char-img img {
+  width: 100%;
+  position: relative;
+  width: block;
+  border-radius: 50%;
+}
+.char-name {
+  padding: 0.5em 0.8em 0;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-align: center;
+}
+.char-pra {
+  text-align: justify;
+  margin-top: 10px;
+}
+.lazy-load-image {
+  opacity: 0; /* Hide the image initially */
+  transition: opacity 0.4s ease;
+  opacity: 100%;
+}
