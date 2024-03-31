@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+*:not(i) {
+  font-family: "Poppins", sans-serif;
+}
+/* above code This CSS rule can be useful if you want to apply a specific font family to all elements except for italicized text represented by <i> elements. */
+body {
+  background-color: #ae9cff;
+}
+.container-1 {
+  background-color: white;
+  width: 90vmin;
+  padding: 80px 80px;
+  border-radius: 6px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+
+.searchbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.searchbox input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-bottom: 3px solid #ae9cff;
+}
+.searchbox button {
+  color: white;
+  background-color: #ae9cff;
+  border: none;
+  padding: 8px;
+  width: 25%;
+  border-radius: 2.5px;
+}
+.result {
+  position: relative;
+}
+.result h2 {
+  font-size: 20px;
+  color: #1f194c;
+}
+
+.result button {
+  border: none;
+  background-color: #ae9cff;
+
+  padding: 2.5px 4px;
+  color: #ae9cff;
+  outline: none;
+}
+.result .words {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.result .details {
+  display: flex;
+  opacity: 40%;
+  font-size: 13.5px;
+  margin-top: 1.5px;
+  gap: 2px;
+}
+.result .details-1 {
+  margin-top: 14px;
+  opacity: 70%;
+}
+.result .details-2 {
+  margin-top: 20px;
+  opacity: 80%;
+  border-left: 5px solid #a490fb;
+  padding-left: 5px;
+  font-size: 15px;
+}
+.result {
+  display: none;
+}
